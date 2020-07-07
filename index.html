@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:20px}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: black
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<h1 align = "center"> 3.36 Acres in the Sierra Nevada Foothills</h1>
+<h2 align = "center"> $59,000 – Limited time offer!</h2>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 21</div>
+  <img src="images/QR_site1.jpg" style="width:100%">
+  <div class="text">Builing Site</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 21</div>
+  <img src="images/QR_driveway4.jpg" style="width:100%">
+  <div class="text">Driveway</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 21</div>
+  <img src="images/QR_driveway1.jpg" style="width:100%">
+  <div class="text">Seasonal Creek</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 21</div>
+  <img src="images/QR_site2.jpg" style="width:100%">
+  <div class="text">Wild flowers and oak trees</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">5 / 21</div>
+  <img src="images/QR_site3.jpg" style="width:100%">
+  <div class="text">Level building site</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">6 / 21</div>
+  <img src="images/QR_fromabove.jpg" style="width:100%">
+  <div class="text">Birds-eye view of land</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">7 / 21</div>
+  <img src="images/QR_sideview2.jpg" style="width:100%">
+  <div class="text">Neighbor to East</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">8 / 21</div>
+  <img src="images/QR_road.jpg" style="width:100%">
+  <div class="text">Quail Run Drive</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">9 / 21</div>
+  <img src="images/QR_well2.jpg" style="width:100%">
+  <div class="text">Well next to creek</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">10 / 21</div>
+  <img src="images/1.png" style="width:100%">
+  <div class="text">Site plan</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">11 / 21</div>
+  <img src="images/2.png" style="width:100%">
+  <div class="text">Preliminary plans for custom 2500 sq ft home</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">12 / 21</div>
+  <img src="images/3.png" style="width:100%">
+  <div class="text">4-car garage & guest house</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">13 / 21</div>
+  <img src="images/4.png" style="width:100%">
+  <div class="text">First floor - garage</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">14 / 21</div>
+  <img src="images/5.png" style="width:100%">
+  <div class="text">Second floor - 2 bedroom guest house</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">15 / 21</div>
+  <img src="images/drive_home.jpg" style="width:100%">
+  <div class="text">Driving home on 198</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">16 / 21</div>
+  <img src="images/kaweah.jpg" style="width:100%">
+  <div class="text">Lake Kaweah - minutes away</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">17 / 21</div>
+  <img src="images/kaweah2.jpg" style="width:100%">
+  <div class="text">Lake Kaweah</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">18 / 21</div>
+  <img src="images/kaweah_boats.jpg" style="width:100%">
+  <div class="text">Lake Kaweah boat launch</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">18 / 21</div>
+  <img src="images/3RiversSign.jpg" style="width:100%">
+  <div class="text">Town entrance</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">19 / 21</div>
+  <img src="images/village_market.jpg" style="width:100%">
+  <div class="text">Three Rivers Village Market</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">20 / 21</div>
+  <img src="images/mercantile.jpg" style="width:100%">
+  <div class="text">Three Rivers Mercantile</div>
+</div>
+
+<div class="mySlides fade">
+<div class="numbertext">21 / 21</div>
+  <img src="images/7.png" style="width:100%">
+  <div class="text">Assessor's Map</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span> 
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span> 
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span> 
+  <span class="dot" onclick="currentSlide(14)"></span> 
+  <span class="dot" onclick="currentSlide(15)"></span> 
+  <span class="dot" onclick="currentSlide(16)"></span> 
+  <span class="dot" onclick="currentSlide(17)"></span> 
+  <span class="dot" onclick="currentSlide(18)"></span> 
+  <span class="dot" onclick="currentSlide(19)"></span> 
+  <span class="dot" onclick="currentSlide(20)"></span>
+  <span class="dot" onclick="currentSlide(21)"></span>  
+  <span class="dot" onclick="currentSlide(22)"></span> 
+</div>
+<p>
+        <div align = "center">
+          41815 Quail Run Drive
+        </div>
+        <div align = "center">
+          Tract No. 643 – South Fork Estates, Unit 1, lot 36
+        </div>
+        <div align = "center">
+          Three Rivers, CA
+        </div>
+      </p>
+      <p>
+        3.36 acres located in the Sierra Nevada foothills nestled in a neighborhood of beautiful custom homes. Ready to build: water and power to site, preliminary site plan included, driveway already built over seasonal creek, beautiful tree covered lot, 2 community wells.  Suitable for a fine estate and/or AirBnB income.
+      </p>
+      <p>
+        You’ll never want to leave, but if you do the property is located approximately:
+      </p>
+      <ul>
+        <li>1 mile from the Three Rivers Village:  Local market, drug store, hardware, restaurants, banks, brewery, art galleries, garden center, yoga, whitewater rafting, and more;</li>
+        <li>7 miles from entrance to Sequoia & Kings National Parks: Home to the world’s largest living tree, hundreds of miles of hiking trails, skiing, snow-shoeing, rivers, caves, and giant sequoias;</li>
+        <li>8 miles from Lake Kaweah boat launch: Fishing, sailing, water skiing, wakeboarding;</li>
+        <li>30 miles from Costco, Target, Lowes, Home Depot, etc.</li>
+      </ul>
+
+    <div align = "center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.2205114015655!2d-118.90696068425183!3d36.428050296258206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80954f9da1cdde0f%3A0x6dd43ec731483291!2s41815%20Quail%20Run%20Dr%2C%20Three%20Rivers%2C%20CA%2093271!5e0!3m2!1sen!2sus!4v1586736076672!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <br>
+    <div align="center">
+        <p>
+        E-mail to inquire about the land:
+        <a href="mailto:ThreeRiversLand@gmail.com?Subject=QuailRun%20inquiry" target="_top">ThreeRiversLand@gmail.com</a>
+        </p>
+    </div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
